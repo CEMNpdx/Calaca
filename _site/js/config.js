@@ -19,9 +19,9 @@
  */
 
 var CALACA_CONFIGS = {
-	url: "",
-	index_name: "",
-	type: "",
+	url: "https://72om97gu75:xikwktt2ti@media-1196178743.us-west-2.bonsaisearch.net",
+	index_name: "media",
+	type: "lecture",
 	size: 10,
 	search_delay: 500
 }
