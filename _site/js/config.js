@@ -18,10 +18,10 @@
  * search_delay - Delay between actual search request in ms. Reduces number of queries to cluster by not making a request on each keystroke. 
  */
 
-var CALACA_CONFIGS = {
-	url: "https://72om97gu75:xikwktt2ti@media-1196178743.us-west-2.bonsaisearch.net",
+var host = {
+	url: "https://3vxc6ao99s:hvivsagghw@media-9434941565.us-west-2.bonsaisearch.net",
 	index_name: "media",
-	type: "lecture",
+	type: "book",
 	size: 10,
 	search_delay: 500
 }
