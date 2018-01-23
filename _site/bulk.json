@@ -1,0 +1,7 @@
+{ "index" : { "_index" : "media", "_type" : "lecture", "_id" : "1" } }
+{ "title" : "electron", "author" : "Chapter 5", "imageUrl" : "" }
+{ "index" : { "_index" : "media", "_type" : "lecture", "_id" : "2" } }
+{ "title" : "wavefunction", "author" : "Chapter 5", "imageUrl" : "" }
+...
+
+curl -s -XPOST {https://72om97gu75:xikwktt2ti@media-1196178743.us-west-2.bonsaisearch.net}/_bulk --data-binary @bulk.json
