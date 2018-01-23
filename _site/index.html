@@ -29,9 +29,9 @@
   <section class='results'>
     <p class='no-results' ng-show='!results.length && !loading'>No Results</p>
     <article class='result' ng-repeat='result in results track by $id(result)'>
-      <h2>{{result.name}}</h2>
-      <p>{{result.description}}</p>
-    </article>
+      <h2>{{result.title}}</h2>
+      <p>{{result.author}}</p>
+    </article> esHost });
   </section>
   <section class='pagination-controls'>
     <button ng-click='search(-1)' ng-show='paginationEnabled() && offset !== 0' class='pager'>Previous</button><button ng-click='search(1)' ng-show='paginationEnabled()' class='pager'>Next</button>
