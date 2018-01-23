@@ -12,7 +12,7 @@
 Calaca.factory('calacaService', ['$q', 'esFactory', '$location', function($q, elasticsearch, $location){
 
     //Set default url if not configured
-    var esHost = (host.length > 0)  ? host : $location.host;
+    var esHost = (host.length > 0)  ? host : $location.host();
 
     var client = elasticsearch({ host: esHost });
 
