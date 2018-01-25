@@ -4,4 +4,4 @@
 { "title" : "Pride and Prejudice", "author" : "Jane Austen", "imageUrl" : "" }
 ...
 
-curl -s -XPOST https://3vxc6ao99s:hvivsagghw@media-9434941565.us-west-2.bonsaisearch.net}/_bulk --data-binary @bulk.json
+curl -s -XPOST {https://jg3zirwxcw:khidzw0qe5@media-6114740069.us-west-2.bonsaisearch.net}/_bulk --data-binary @bulk.json
