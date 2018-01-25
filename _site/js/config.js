@@ -19,7 +19,7 @@
  */
 
 var host = {
-	url: "https://3vxc6ao99s:hvivsagghw@media-9434941565.us-west-2.bonsaisearch.net",
+	url: "https://jg3zirwxcw:khidzw0qe5@media-6114740069.us-west-2.bonsaisearch.net",
 	index_name: "media",
 	type: "book",
 	size: 10,
